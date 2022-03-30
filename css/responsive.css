@@ -1,0 +1,34 @@
+    /*pc-first*/
+/* ipad ngang (1024x768) */
+@media screen and (max-width:1024px){
+#wrapper{
+    width: 100%;
+}}
+/* ipad dọc(768 x 1024) */
+@media screen and (max-width:768px){
+.nav-menu{display: none!important;}
+.logo-icon{display: none;}
+.logo{
+   float: right;
+}
+
+.fashion{
+    width: 100%;
+}
+.icon-plugin{
+    display: none!important;
+}
+.icon-respon-menu{display: block!important;}
+.carousel-slideshow{
+    position: absolute;
+    top:0px;
+}
+}
+
+
+/*talblet nhỏ (480 x 640)*/
+@media screen and (max-width:480px){
+    #wp-header,#wp-footer{
+     width: 100%!important;
+ }
+}

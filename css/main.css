@@ -1,0 +1,82 @@
+#wrapper{
+    width: 100%; 
+     margin: 0px auto;
+   font-family:Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+}
+.nav-menu a{
+    color: white;
+}
+.icon-respon-menu{
+    display: none!important;
+    text-decoration: none;
+    color: white;
+    font-weight: 30px;
+    position: absolute;
+     top: 15px;
+     right: -25px;
+}
+#respon-head{
+    position: relative;
+}
+.fa-truck {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.fa-star{
+color: yellow;
+}
+.fa-star-half-alt{
+    color: yellow;
+}
+a:hover{
+    color: red !important;
+    text-decoration: none!important;
+}
+.fashion{
+    width: 90%;
+}
+.icon-plugin{
+    display: block;
+}
+.icon-respon-menu{
+    display: none;
+    text-decoration: none;
+    color: white;
+    font-weight: 30px;
+    position: absolute;
+     top: 25px;
+     right: -25px;
+}
+#site{
+    position: relative!important;
+    overflow: hidden;
+}
+
+#respon-menu li {
+    border-top:1px solid #999393;
+    padding: 5px;
+   }
+#wp-respon-menu{
+    width: 250px;
+    height: 100%;
+   background: #444;
+    position: absolute;   
+    left: -250px;
+    top: 0px;
+    transition: left 0.25s;
+ }
+.carousel-slideshow{
+    position: absolute;
+    top: 50%;
+}
+#site.open-respon-menu #wp-respon-menu{
+    left: 0px;
+    transition: left 0.25s;
+}
+.opacity{
+   opacity: 0.3;
+}
